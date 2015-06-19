@@ -102,7 +102,7 @@ define(["backbone-events", "fc/prefs", "fc/bramble-ui-bridge"],
     this.init = function(make) {
       // Start loading Bramble
       Bramble.load("#webmaker-bramble",{
-        url: options.editorURL
+        url: "http://localhost:8000/src"
       });
 
       // Event listeners
